@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050912" />
+  <meta name="description" content="Game Transformers — human-directed, AI-orchestrated games that transform with every decision." />
+  <title>Game Transformers — Games that transform while you play</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Game Transformers home">
+      <span class="brand-mark">GTR</span>
+      <span class="brand-name">GAME TRANSFORMERS</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#system">System</a>
+      <a href="#match">How it works</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#interface">Interface</a>
+    </nav>
+    <a class="nav-cta" href="#partner">Run a game <span aria-hidden="true">↗</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <a href="#system">System</a>
+    <a href="#match">How it works</a>
+    <a href="#capabilities">Capabilities</a>
+    <a href="#interface">Interface</a>
+    <a href="#partner">Run a Game With Us</a>
+  </div>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> Human-directed · AI-orchestrated · adaptive</div>
+        <h1>Games that <span>transform</span><br />while you play.</h1>
+        <p class="hero-lede">A human sets the premise, game type and principal cast. The orchestration layer composes the world in motion — inferred characters, generated scenes, shifting objectives and consequences — as players decide what happens next.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#partner">Run a Game With Us <span>↗</span></a>
+          <a class="button button-ghost" href="#waitlist">Join the Early-Bird Waitlist <span>→</span></a>
+        </div>
+        <div class="hero-proof">
+          <span>No fixed catalogue.</span>
+          <span>No BCI lock-in.</span>
+          <span>Every run leaves a decision trace.</span>
+        </div>
+      </div>
+
+      <div class="orchestrator-card reveal" aria-label="Game orchestration diagram">
+        <div class="panel-topline">
+          <span>LIVE ORCHESTRATION</span>
+          <span class="live-indicator"><i></i> STATEFUL</span>
+        </div>
+        <div class="runtime" aria-hidden="true">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="runtime-core">
+            <span class="core-kicker">ORCHESTRATOR</span>
+            <strong>WORLD<br/>STATE</strong>
+            <small>RUN / 047</small>
+          </div>
+          <div class="runtime-node node-director"><b>01</b><span>DIRECTOR</span></div>
+          <div class="runtime-node node-players"><b>02</b><span>PLAYERS</span></div>
+          <div class="runtime-node node-methods"><b>03</b><span>MAD / DSM</span></div>
+          <div class="runtime-node node-media"><b>04</b><span>MEDIA</span></div>
+          <div class="runtime-node node-cast"><b>05</b><span>CAST</span></div>
+          <svg class="runtime-lines" viewBox="0 0 600 520" preserveAspectRatio="none">
+            <path d="M300 260 L124 112" />
+            <path d="M300 260 L492 122" />
+            <path d="M300 260 L95 378" />
+            <path d="M300 260 L500 382" />
+            <path d="M300 260 L303 52" />
+          </svg>
+        </div>
+        <div class="runtime-feed">
+          <div><span>MODE</span><b>MIXED</b></div>
+          <div><span>CAST</span><b>4 + INFERRED</b></div>
+          <div><span>INPUT</span><b>MULTIMODAL</b></div>
+          <div><span>NEXT</span><b>GENERATE CONSEQUENCE</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto shell reveal" id="system">
+      <div class="section-label">THE SYSTEM</div>
+      <div class="manifesto-grid">
+        <h2>The game is not the prompt.<br/><span>The game is the evolving state.</span></h2>
+        <p>Game Transformers turns a starting idea into a live decision system. Human direction establishes intent. Orchestration expands and maintains the run. Player behaviour changes what exists, what becomes possible and what gets generated next.</p>
+      </div>
+      <div class="system-flow">
+        <article>
+          <span class="flow-id">01 / DIRECT</span>
+          <h3>Set the tension.</h3>
+          <p>Choose collaborative, adversarial or mixed play. Seed the lure, principal characters, constraints and desired pressure.</p>
+        </article>
+        <span class="flow-arrow">→</span>
+        <article>
+          <span class="flow-id">02 / ORCHESTRATE</span>
+          <h3>Compose the world.</h3>
+          <p>Infer supporting cast, relationships, events, information, objectives and scenes from the live game state.</p>
+        </article>
+        <span class="flow-arrow">→</span>
+        <article>
+          <span class="flow-id">03 / TRANSFORM</span>
+          <h3>Make decisions matter.</h3>
+          <p>Interactions alter alliances, resources, goals and future media. The next scene follows from the run — not a fixed script.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="match shell" id="match">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-label">HOW A MATCH WORKS</div>
+          <h2>One seed.<br/>A run that keeps becoming.</h2>
+        </div>
+        <p>Each phase changes the state available to the next one. The loop continues until the run reaches its completion condition.</p>
+      </div>
+
+      <div class="match-grid">
+        <article class="step step-large reveal">
+          <span class="step-number">01</span>
+          <div class="step-signal">HUMAN LEAD</div>
+          <h3>Frame the game.</h3>
+          <p>Define the mode, lure, goal, boundaries and principal characters. Human intent remains visible at the top of the run.</p>
+          <div class="mini-state">
+            <span>TYPE <b>MIXED</b></span>
+            <span>THEME <b>DERELICT ORBITAL CITY</b></span>
+            <span>CAST <b>3 PRINCIPAL</b></span>
+          </div>
+        </article>
+
+        <article class="step reveal">
+          <span class="step-number">02</span>
+          <div class="step-signal">ORCHESTRATOR</div>
+          <h3>Expand the seed.</h3>
+          <p>Generate supporting cast, conflicts, opportunities, environments and an initial world state.</p>
+        </article>
+
+        <article class="step reveal">
+          <span class="step-number">03</span>
+          <div class="step-signal">MEDIA LAYER</div>
+          <h3>Materialize the scene.</h3>
+          <p>Create visual, video and narrative assets from what is true <em>now</em>, not from a pre-authored sequence.</p>
+        </article>
+
+        <article class="step reveal">
+          <span class="step-number">04</span>
+          <div class="step-signal">PLAYERS</div>
+          <h3>Choose and interact.</h3>
+          <p>Collaborate, compete, negotiate, explore or break formation. Inputs become events in the shared state.</p>
+        </article>
+
+        <article class="step reveal">
+          <span class="step-number">05</span>
+          <div class="step-signal">MAD / DSM</div>
+          <h3>Interpret the decision space.</h3>
+          <p>Decision and interaction support methods structure choices, conflicts, cooperation and possible next actions.</p>
+        </article>
+
+        <article class="step step-accent reveal">
+          <span class="step-number">06</span>
+          <div class="step-signal">STATE UPDATE</div>
+          <h3>Transform the game.</h3>
+          <p>Consequences modify characters, alliances, objectives, information and the next generated scene. Then the loop runs again.</p>
+          <div class="pulse-line"><i></i><i></i><i></i><i></i><i></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="capabilities shell" id="capabilities">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-label">CAPABILITY STACK</div>
+          <h2>What the team actually builds.</h2>
+        </div>
+        <p>Not generic “AI expertise.” These are the capabilities required to make the run coherent, reactive and useful.</p>
+      </div>
+
+      <div class="capability-grid">
+        <article class="cap-card reveal">
+          <div class="cap-icon">01</div>
+          <h3>Human Game Direction</h3>
+          <p>Game mode, lure, boundaries, principal cast and the creative or strategic pressure that starts the run.</p>
+          <span class="cap-tag">INTENT LAYER</span>
+        </article>
+        <article class="cap-card reveal">
+          <div class="cap-icon">02</div>
+          <h3>Generative World & Character Design</h3>
+          <p>Supporting characters, relationships, situations, environments and media prompts inferred from the state.</p>
+          <span class="cap-tag">WORLD LAYER</span>
+        </article>
+        <article class="cap-card reveal">
+          <div class="cap-icon">03</div>
+          <h3>LLM Game Orchestration</h3>
+          <p>Persistent roles, events, tool calls, state transitions and progression across the full run.</p>
+          <span class="cap-tag">RUNTIME LAYER</span>
+        </article>
+        <article class="cap-card reveal">
+          <div class="cap-icon">04</div>
+          <h3>MAD / DSM Decision Support</h3>
+          <p>Methods for structuring decisions, interaction, conflict, cooperation, consequences and available actions.</p>
+          <span class="cap-tag">DECISION LAYER</span>
+        </article>
+        <article class="cap-card cap-wide reveal">
+          <div class="cap-icon">05</div>
+          <h3>Adaptive Human–Machine Interaction</h3>
+          <p>Touch, keyboard, voice, simulated signals or BCI can all become normalized game intents. The game engine consumes the intent — not the hardware.</p>
+          <span class="cap-tag">INTERFACE LAYER</span>
+          <div class="input-strip" aria-hidden="true">
+            <span>TOUCH</span><i>→</i><span>VOICE</span><i>→</i><span>BCI</span><i>→</i><strong>INTENT</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="interface shell reveal" id="interface">
+      <div class="interface-copy">
+        <div class="section-label">INTERFACE ARCHITECTURE</div>
+        <h2>BCI can join the loop.<br/><span>It never owns it.</span></h2>
+        <p>A disappearing headset vendor should never be able to stop the game. Every device or modality passes through the same input adapter and becomes a normalized intent with confidence, time and source.</p>
+        <div class="interface-note">That makes hardware an integration layer — not a blocker, not a product dependency.</div>
+      </div>
+      <div class="adapter-card">
+        <div class="adapter-title"><span>INPUT ADAPTER</span><b>PROVIDER-AGNOSTIC</b></div>
+        <div class="adapter-stack">
+          <div class="provider"><span>SIMULATED / CI</span><b>✓</b></div>
+          <div class="provider"><span>KEYBOARD · TOUCH</span><b>✓</b></div>
+          <div class="provider"><span>VOICE</span><b>✓</b></div>
+          <div class="provider"><span>BCI PROVIDER</span><b>↗</b></div>
+        </div>
+        <div class="adapter-output">
+          <span>NORMALIZED EVENT</span>
+          <code>{ intent, confidence, timestamp, source }</code>
+        </div>
+        <div class="adapter-destination">→ GAME STATE / ORCHESTRATOR</div>
+      </div>
+    </section>
+
+    <section class="outcome shell reveal">
+      <div class="outcome-card">
+        <div class="section-label">WHAT SURVIVES THE RUN</div>
+        <h2>The outcome is more than a winner.</h2>
+        <p>Keep the seed, major state transitions, decisions, significant interactions, generated artifacts and final outcome. That gives every run a replayable decision trajectory — useful for evaluation, research and the next game.</p>
+        <div class="artifact-row">
+          <span>SEED</span><span>STATE</span><span>DECISIONS</span><span>MEDIA</span><span>OUTCOME</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing shell" id="partner">
+      <div class="closing-inner reveal">
+        <div class="closing-copy">
+          <div class="section-label">START A RUN</div>
+          <h2>Bring the premise.<br/><span>We’ll build the pressure.</span></h2>
+          <p>For collaborators, researchers and partners who want to test a complete game run rather than watch another AI demo.</p>
+        </div>
+        <a class="button button-primary button-large" href="mailto:hello@example.com?subject=Run%20a%20Game%20With%20Us">Run a Game With Us <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="waitlist shell" id="waitlist">
+      <div class="waitlist-inner reveal">
+        <div>
+          <span class="section-label">EARLY ACCESS</span>
+          <h3>Want to play when the first public runs open?</h3>
+        </div>
+        <form class="waitlist-form" onsubmit="return false;">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          <button type="submit">Join the Early-Bird Waitlist <span>→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div class="brand brand-footer"><span class="brand-mark">GTR</span><span class="brand-name">GAME TRANSFORMERS</span></div>
+    <p>Human-directed. AI-orchestrated. Changed by every decision.</p>
+    <span>© 2026</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
